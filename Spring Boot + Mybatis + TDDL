@@ -1,0 +1,12 @@
+1. SpringBootApplication 调用 @MapperScan("com.package...") 扫描Mapper
+2. Mapper借口与XML文件对应，一个Mapper对应一个<Mapper>
+3. XML中需注意 namespace和resultMap
+4. 设计controller并注释@RestController @RequestMapping(.../...)
+5. 对象声明：a. @Autowired + private
+            b. private + getter + setter 
+            对应一个spring bean
+6. controller调用接口，涉及具体的实现类，接口放在service的package下
+7. XML里的类要写全称！
+8. application.properties中设置mybatis.mapper-locations = classpath: / /*.xml
+9. SQL获取时间可用now()
+10. Mapper.xml中： column=" "(表中的列名）  proerty=" " (映射属性名，与DO层一致）
