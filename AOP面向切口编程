@@ -1,0 +1,14 @@
+AOP（Ascept Oriented Programming）
+应用场景：当需要在项目中很多地方增加同一种功能，
+例如日志，OOP的做法是在每一个class下增加相同的代码，
+或者将这些class耦合起来，这样增加了代码的重复度和耦合度。
+
+用途：1. 日志
+          2. 权限
+          3. 事务
+
+其实，广义上来说，我们平常用的spring注释也算是一种面向切口编程。
+
+Xproxy + InvocationHandler
+CGLib
+AspectJ(语句)
